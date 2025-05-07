@@ -8,7 +8,10 @@
 body {
   font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 /* header */
 header {
   display: flex;
@@ -96,27 +99,28 @@ h1 {
 }
 
 /*sezioni*/
-.sezione1 {
+.sezione {
   display: flex;
   justify-content: center;
   padding: 20px;
   background-color: #ffffff;
 }
 
-.elementosezione1 {
+.sectionimg {
   width: 50%;
   height: 400px;
-  background-color: #1e90ff;
-  border: 1px dashed black;
 }
 
-.elementosezione2 {
+.sectiontext {
   width: 30%;
   height: 400px;
-  background-color: #ffb6c1;
-  border: 1px dashed black;
 }
-
+.invite {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
 .sezionegrigia {
   background-color: #d3d3d3;
   display: flex;
