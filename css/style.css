@@ -16,10 +16,21 @@ img {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px 60px;
   background-color: #3161e0;
   color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.nav-links {
+  flex-grow: 1;
+  margin-left: 120px;
 }
 
 .logo img {
