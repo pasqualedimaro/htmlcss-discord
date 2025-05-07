@@ -1,0 +1,137 @@
+/* reset base*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  background-color: #add8e6;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  background-color: #daa520;
+  border: 1px dashed black;
+  width: 20%;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  background-color: #daa520;
+  border: 1px dashed black;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  background-color: #daa520;
+  border: 1px dashed black;
+  width: 20%;
+  align-items: center;
+  justify-content: end;
+}
+
+/* main */
+
+/*hero*/
+.hero {
+  background-color: #00008b;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elementohero {
+  background-color: #ee82ee;
+  height: 80%;
+  display: flex;
+  width: 60%;
+  border: 1px dashed black;
+}
+
+/*sezioni*/
+.sezione1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.elementosezione1 {
+  width: 50%;
+  height: 400px;
+  background-color: #1e90ff;
+  border: 1px dashed black;
+}
+
+.elementosezione2 {
+  width: 30%;
+  height: 400px;
+  background-color: #ffb6c1;
+  border: 1px dashed black;
+}
+
+.sezionegrigia {
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.elementosezione3 {
+  background-color: #228b22;
+  width: 80%;
+  height: 700px;
+  border: 1px dashed black;
+}
+
+.sezionedarkgrey {
+  background-color: #23272a;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.elementosezione4 {
+  background-color: #ef7f7f;
+  width: 20%;
+  height: 400px;
+  border: 1px dashed black;
+}
+
+.elementosezione5 {
+  background-color: #20b2aa;
+  width: 15%;
+  height: 400px;
+  border: 1px dashed white;
+}
+/* footer*/
+
+.elementofooter {
+  background-color: #7fffd4;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pulsante {
+  background-color: #ffb6c1;
+  border: 1px dashed black;
+  display: flex;
+  height: 30px;
+  width: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
