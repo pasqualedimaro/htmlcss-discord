@@ -121,6 +121,12 @@ h1 {
   margin-bottom: 20px;
   margin-top: 35px;
 }
+
+.wave {
+  width: 100%;
+  opacity: 17%;
+  margin-bottom: -4px;
+}
 .sezionegrigia {
   background-color: #d3d3d3;
   display: flex;
