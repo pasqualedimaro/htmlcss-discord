@@ -127,6 +127,10 @@ h2 {
   opacity: 17%;
   margin-bottom: -4px;
 }
+
+.down {
+  rotate: 180deg;
+}
 .sezionegrigia {
   background-color: #d3d3d3;
   display: flex;
